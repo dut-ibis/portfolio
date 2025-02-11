@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css' //cut this out once you fix formatting
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +8,7 @@ function App() {
       <div className="text-8xl">
         Fish Quiz
       </div>
-      <div className="text-8xl italic">
+      <div className="text-8xl italic text-center">
         what fish is this
       </div>
       <div className="card">

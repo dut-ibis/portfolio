@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 Notes: React + Vite, javascript framework
 Tailwind CSS installed
 npm run dev
+
+# Backend
+venv\Scripts\activate
+python3 app.py

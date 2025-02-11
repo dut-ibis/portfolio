@@ -11,6 +11,7 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
+    open: true,
     proxy: {
       '/api': {
         target: 'http://localhost:5000',

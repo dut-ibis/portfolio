@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
+    <div className="flex bg-white justify-center">
       <div className="text-8xl">
-        Fish Quiz
+        welcome to ibis
       </div>
+    </div>
       <div className="text-8xl italic text-center">
         what fish is this
       </div>

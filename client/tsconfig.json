@@ -18,7 +18,7 @@
     },
     "include": [
       "./src"
-    ],
+, "src/pages/App.tsx"    ],
     "exclude": [
       "./node_modules",
       "./build",

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import { Test } from './pages/Test';
+import { Valentines } from './pages/Valentines';
 import App from './pages/App';
 
 const rootElement = document.getElementById('root');
@@ -19,7 +20,8 @@ root.render(
     <Routes>
         <Route path='/' element={<App />} />
         <Route path='test' element={<Test />} />
-    </Routes>
+        <Route path='valentines' element={<Valentines />} />
+    </Routes> 
     </BrowserRouter>
   </StrictMode>
 );

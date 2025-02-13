@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import './Homepage.css'
 
 function Homepage() {
   const [count, setCount] = useState(0)
@@ -7,6 +8,17 @@ function Homepage() {
 
   return (
     <>
+    <div className="scroll-watcher"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
+    <div className="temp"></div>
     <div className="flex bg-white justify-center">
       <div className="text-8xl">
         welcome to ibis

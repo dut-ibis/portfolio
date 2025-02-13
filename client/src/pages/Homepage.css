@@ -1,0 +1,41 @@
+.scroll-watcher {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    background-color: red;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll(y);
+    animation-duration: 10s;
+  }
+
+@keyframes scroll-watcher {
+    0% {
+        left: 20%
+    }
+    25%, 35%{
+        left: 80%
+    }
+    50%, 65% {
+        left: 20%
+    }
+    75%, 90% {
+        left: 80%
+    }
+    100% {
+        left: 20%
+    }
+}
+
+.temp {
+    height: 60vh;
+    padding: 30px 0 0 0;
+    text-align: center;
+    background: #4e4e4e;
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 12px;
+    font-size: 1.4em;
+    color: white;
+  }

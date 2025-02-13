@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function App() {
+function Homepage() {
   const [count, setCount] = useState(0)
   const navigate = useNavigate();
 
@@ -32,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default Homepage

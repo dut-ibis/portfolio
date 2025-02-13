@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import { Test } from './pages/Test';
 import { Valentines } from './pages/Valentines';
-import App from './pages/App';
+import Homepage from './pages/Homepage';
 
 const rootElement = document.getElementById('root');
 
@@ -18,7 +18,7 @@ root.render(
   <StrictMode>
     <BrowserRouter>
     <Routes>
-        <Route path='/' element={<App />} />
+        <Route path='/' element={<Homepage />} />
         <Route path='test' element={<Test />} />
         <Route path='valentines' element={<Valentines />} />
     </Routes> 

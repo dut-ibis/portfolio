@@ -24,6 +24,11 @@ function App() {
         }}>
             Click here to go to wonderful place
         </button>
+        <button onClick={() => {
+          navigate("/valentines");
+        }}>
+          valentines
+        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>

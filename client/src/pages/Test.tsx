@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Test() {
   const [count, setCount] = useState(0)
+  const navigate = useNavigate();
 
   return (
         <>
@@ -17,7 +18,7 @@ function Test() {
             <button onClick={() => setCount((count) => count + 1)}>
             TEst is {count}x stupid
             </button>
-            <button onClick={() => location.href=""}>
+            <button onClick={() => navigate('/')}>
                 Click here to go to wonderful place
             </button>
             <p>

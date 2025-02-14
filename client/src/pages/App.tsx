@@ -20,7 +20,7 @@ function App() {
           amelia is {count}x stupid
         </button>
         <button onClick={() => {
-            navigate("/test#");
+            navigate("/test");
         }}>
             Click here to go to wonderful place
         </button>

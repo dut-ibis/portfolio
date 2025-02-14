@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 
-import ValentinesMessage from '../components/valentinesmessage';
+import ValentinesMessage from '../components/ValentinesMessage';
 import YippieBox from '../components/YippieBox';
 import LiarBox from '../components/LiarBox';
 

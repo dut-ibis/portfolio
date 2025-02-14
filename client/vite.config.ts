@@ -10,7 +10,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: '/',
+  base: '/client',
   server: {
     open: true,
     proxy: {

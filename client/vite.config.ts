@@ -20,5 +20,13 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: '/index.html',
+        homepage: '/public/index.html'
+      },
+    },
+  }, 
   logLevel: 'warn', 
 })

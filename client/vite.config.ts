@@ -21,13 +21,5 @@ export default defineConfig({
       },
     },
   }, 
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve('client', 'index.html'), 
-        public: resolve('public', 'public/index.html')
-      }
-    }
-  }, 
   logLevel: 'warn', 
 })

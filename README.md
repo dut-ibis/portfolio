@@ -11,6 +11,9 @@ Notes: React + Vite, javascript framework
 Tailwind CSS installed
 npm run dev
 
+# Tailwind Customization
+Add font: Go to index.css, at the very top: @import url("insert google font url here"); Go to @theme{}. add in this format: --font-pacifico: "Pacifico", sans-serif;
+
 # Backend
 venv\Scripts\activate
 python3 app.py

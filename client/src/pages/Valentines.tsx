@@ -9,7 +9,7 @@ import LiarBox from '../components/LiarBox';
 
 function Valentines() {
   return (
-    <div className="bg-[url(../public/valentines/valentinesBackground.jpg)] bg-cover min-h-screen relative p-14 w-screen flex justify-between items-center">
+    <div className="bg-[url(/valentinesBackground.jpg)] bg-cover min-h-screen relative p-14 w-screen flex justify-between items-center">
         <title>I love you!</title>
         <ValentinesMessage />
         <YippieBox />

@@ -21,25 +21,25 @@ function Valentines() {
           className="w-120 h-200"
         >
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia1.jpg'} alt="amelia" className="w-full h-full object-cover"/>
+            <img src={'/amelia1.jpg'} alt="amelia" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia2.jpg'} alt="happy valentine's day" className="w-full h-full object-cover"/>
+            <img src={'/amelia2.jpg'} alt="happy valentine's day" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia3.jpg'} alt="be mine" className="w-full h-full object-cover"/>
+            <img src={'/amelia3.jpg'} alt="be mine" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia4.jpg'} alt="please say yes" className="w-full h-full object-cover"/>
+            <img src={'/amelia4.jpg'} alt="please say yes" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia5.jpg'} alt="i love you" className="w-full h-full object-cover"/>
+            <img src={'/amelia5.jpg'} alt="i love you" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/amelia6.jpg'} alt="kitty special" className="w-full h-full object-cover"/>
+            <img src={'/amelia6.jpg'} alt="kitty special" className="w-full h-full object-cover"/>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-lg">
-            <img src={'../public/valentines/valentinescard.jpg'} alt="card" className="w-full h-full object-cover"/>
+            <img src={'/valentinescard.jpg'} alt="card" className="w-full h-full object-cover"/>
           </SwiperSlide>
         </Swiper>
       </div>
